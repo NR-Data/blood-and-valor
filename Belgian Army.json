@@ -1,0 +1,1695 @@
+{
+  "catalogue": {
+    "name": "Belgian Army",
+    "id": "11ef-1851-7c53-cb28",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "8673-27a3-2308-77d8",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 5,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Cavalry Unit",
+        "id": "531f-f585-2a96-fc5b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "221f-c86a-8040-0019",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "df86-fe17-3377-0694", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Cavalry", "id": "1124-aac5-9323-9e36", "hidden": false, "primary": false, "targetId": "bd5c-df4c-87ae-06f8"}
+        ]
+      },
+      {
+        "name": "Capitaine Command Team",
+        "id": "5530-a52b-f672-a368",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "09b1-0aa0-9204-f6c7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "cdca-b5c3-faf7-f0f7", "hidden": false, "primary": true, "targetId": "46c4-9b7c-2612-66d5"}]
+      },
+      {
+        "name": "Sniper",
+        "id": "a752-bbba-e1d3-2942",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6159-8423-9584-38f1",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0124-6188-9bad-dfb2", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"}]
+      },
+      {
+        "name": "Garde Civique Ineperienced Riflemen",
+        "id": "390e-9ea5-9fad-ad67",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5bb7-9c8c-1763-f666",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "cf25-6271-8a9e-158d", "hidden": false, "primary": true, "targetId": "1807-d10a-531c-67ee"},
+          {"name": "Riflemen", "id": "cee4-093a-4353-e4e7", "hidden": false, "primary": false, "targetId": "67a1-13eb-7ebe-3e14"}
+        ]
+      },
+      {
+        "name": "Major Command Team",
+        "id": "f276-73ff-4f8e-3a0d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c3eb-1608-a7aa-0bce",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "25e6-c98a-bd9e-22d1", "hidden": false, "primary": true, "targetId": "46c4-9b7c-2612-66d5"}]
+      },
+      {
+        "name": "Capitaine-Commandant Van Damme",
+        "id": "ff9e-a908-6dc9-698f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4bb2-bb0b-a63c-0410",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8028-ee39-675e-e9ce", "hidden": false, "primary": true, "targetId": "46c4-9b7c-2612-66d5"}]
+      },
+      {
+        "name": "Riflemen",
+        "id": "3d60-0c82-fe11-99bd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "be35-c7f7-2e7e-f7b1",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "cd8d-5a7b-76b8-804c", "hidden": false, "primary": true, "targetId": "1807-d10a-531c-67ee"},
+          {"name": "Riflemen", "id": "073f-2586-6193-f4fb", "hidden": false, "primary": false, "targetId": "67a1-13eb-7ebe-3e14"}
+        ]
+      },
+      {
+        "name": "Sous-Lieutenant Command Team",
+        "id": "609b-4c8e-7af9-9201",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "941c-e1bb-5d6e-4d7a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e9e3-4726-5762-62a2", "hidden": false, "primary": true, "targetId": "46c4-9b7c-2612-66d5"}]
+      },
+      {
+        "name": "HMG Team",
+        "id": "f0d5-93a8-e203-6cc0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "144a-fd95-9c7f-d6fc",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a645-018c-378b-dfde", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"}]
+      },
+      {
+        "name": "Liege Fort Gun Barrage",
+        "id": "2e32-6655-8f37-f45a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c83d-ac16-5c57-e891",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5702-c5a0-a27a-c972", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"}]
+      },
+      {
+        "name": "Carabiniers-cyclistes",
+        "id": "c719-94b7-1c52-cbb4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a14b-aed5-38bc-4a46",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b276-f19c-c87a-cb3c", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"}]
+      },
+      {
+        "name": "Artillery Barrage",
+        "id": "c89d-83ea-6640-483f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2492-60cd-6ddd-2618",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3d54-b44f-71f3-7cb3", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"}]
+      },
+      {
+        "name": "Medic",
+        "id": "fb32-5a9b-c451-f6db",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b925-ad4f-6249-d466",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9fad-7485-3134-8e86", "hidden": false, "primary": true, "targetId": "5cbb-f214-e1ea-23f4"}]
+      },
+      {
+        "name": "Flagbearer/Musician",
+        "id": "fc6a-5499-b47e-d42a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7ab7-8b90-db9f-49eb",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9cac-7707-2a71-9b72", "hidden": false, "primary": true, "targetId": "5cbb-f214-e1ea-23f4"}]
+      },
+      {
+        "name": "Field Gun",
+        "id": "86d8-85ce-3283-cf6b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2773-79df-829f-7cd7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "f23a-4542-6790-3f57", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"}]
+      },
+      {
+        "name": "Trench Mortar Team",
+        "id": "ab8c-8e9a-7d55-0d99",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f480-87b9-f5ec-a39a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "02a8-3136-7eaf-34ab", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"}]
+      }
+    ],
+    "forceEntries": [
+      {
+        "name": "Belgian Army",
+        "id": "240e-dd03-1c4d-0117",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Command",
+            "id": "f7ea-8796-661f-3bea",
+            "hidden": false,
+            "primary": false,
+            "targetId": "46c4-9b7c-2612-66d5",
+            "constraints": [
+              {
+                "id": "245b-68f7-4ee6-3c3f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "f3b1-113f-c68a-f61e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "id": "e5fc-a3ff-db88-0175",
+            "hidden": false,
+            "primary": false,
+            "targetId": "8a98-dc03-b3f4-eeb6",
+            "constraints": [
+              {
+                "id": "c444-2290-edb0-d92d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "c444-2290-edb0-d92d",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "1807-d10a-531c-67ee",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "force",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Core",
+            "id": "be7c-48ce-bd32-cb69",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1807-d10a-531c-67ee",
+            "constraints": [
+              {
+                "id": "4aa6-b395-569b-a424",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              },
+              {
+                "id": "334b-b823-bd2a-2cfc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "name": "HMG",
+            "id": "8757-4bcc-77d9-24e5",
+            "hidden": false,
+            "primary": false,
+            "targetId": "8308-bccd-4d88-98a3",
+            "constraints": [
+              {
+                "id": "001e-b64c-da69-8651",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "name": "Riflemen",
+            "id": "d8fc-2b36-95f9-9519",
+            "hidden": false,
+            "primary": false,
+            "targetId": "67a1-13eb-7ebe-3e14",
+            "constraints": [
+              {
+                "id": "76cd-35ff-e6ff-bb00",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              }
+            ]
+          },
+          {"name": "Command Upgrades", "id": "a447-794e-9c05-eebe", "hidden": false, "primary": false, "targetId": "5cbb-f214-e1ea-23f4"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Sous-Lieutenant Command Team",
+        "id": "941c-e1bb-5d6e-4d7a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 2}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}],
+        "rules": [
+          {
+            "name": "Tough",
+            "id": "b5c9-7a98-ba95-d45a",
+            "description": "Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Commander",
+            "id": "8c4f-2024-dc6a-b61d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "7f9c-909d-9f59-535f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "5594-6604-37ba-fca1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Pistol", "id": "d93a-a377-fa8a-a540", "hidden": false, "targetId": "95d9-3498-0a39-1994", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Commander",
+                "id": "56f1-9c6d-8b40-d20a",
+                "hidden": false,
+                "typeId": "4b8f-8ee3-acad-25cf",
+                "typeName": "Commander",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "4076-f899-be35-c73f"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "2a2e-b11b-4284-20c0"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "ed6d-9cfd-40b6-7413"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "504f-18f4-abc8-206b"},
+                  {"name": "Resolve", "$text": "6", "typeId": "1031-dbaf-5b8f-ae44"},
+                  {"name": "Command Range", "$text": "8", "typeId": "7282-da2c-ef0f-ab9d"},
+                  {"name": "Command Points", "$text": "1", "typeId": "e94a-17a1-a679-da92"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Riflemen",
+            "id": "b646-2b7f-f318-f00a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "6c4c-cb11-7bb1-2a1f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "49d8-c8b8-7498-df24",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Rifle", "id": "1609-2a73-146a-5ed9", "hidden": false, "targetId": "4a75-fe9a-7bc2-b2eb", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Riflemen",
+                "id": "51f8-3e9e-9a62-543d",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Capitaine Command Team",
+        "id": "09b1-0aa0-9204-f6c7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 2}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 15}],
+        "rules": [
+          {
+            "name": "Tough",
+            "id": "087f-b42c-8c12-c148",
+            "description": "Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Commander",
+            "id": "a428-c2af-1c93-9a39",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "611e-0a66-6619-1f77",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "d5cf-77e7-e2ab-a3ff",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Pistol", "id": "9813-de00-d67a-150a", "hidden": false, "targetId": "95d9-3498-0a39-1994", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Commander",
+                "id": "ea3b-e9c8-c779-8f9c",
+                "hidden": false,
+                "typeId": "4b8f-8ee3-acad-25cf",
+                "typeName": "Commander",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "4076-f899-be35-c73f"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "2a2e-b11b-4284-20c0"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "ed6d-9cfd-40b6-7413"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "504f-18f4-abc8-206b"},
+                  {"name": "Resolve", "$text": "6", "typeId": "1031-dbaf-5b8f-ae44"},
+                  {"name": "Command Range", "$text": "8", "typeId": "7282-da2c-ef0f-ab9d"},
+                  {"name": "Command Points", "$text": "2", "typeId": "e94a-17a1-a679-da92"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Riflemen",
+            "id": "f56c-1c09-5c4b-4c06",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "9836-b719-a897-2369",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "b376-927a-de2f-3263",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Rifle", "id": "31bf-a3fa-8588-f164", "hidden": false, "targetId": "4a75-fe9a-7bc2-b2eb", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Riflemen",
+                "id": "b657-4165-6bc0-7298",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Major Command Team",
+        "id": "c3eb-1608-a7aa-0bce",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 2}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 25}],
+        "infoLinks": [{"name": "Command Skills (+1)", "id": "e756-a56b-0d6b-d0cc", "hidden": false, "targetId": "5a5c-2535-e6a5-07f5", "type": "rule"}],
+        "rules": [
+          {
+            "name": "Tough",
+            "id": "4146-9767-4fdf-e206",
+            "description": "Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Commander",
+            "id": "8b58-fef2-8643-278d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "86d3-3226-5427-34e8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "bd50-281a-d375-604a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Pistol", "id": "3fb5-f066-ec0a-80d9", "hidden": false, "targetId": "95d9-3498-0a39-1994", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Commander",
+                "id": "2f4b-afa3-ffc8-d622",
+                "hidden": false,
+                "typeId": "4b8f-8ee3-acad-25cf",
+                "typeName": "Commander",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "4076-f899-be35-c73f"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "2a2e-b11b-4284-20c0"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "ed6d-9cfd-40b6-7413"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "504f-18f4-abc8-206b"},
+                  {"name": "Resolve", "$text": "6", "typeId": "1031-dbaf-5b8f-ae44"},
+                  {"name": "Command Range", "$text": "12", "typeId": "7282-da2c-ef0f-ab9d"},
+                  {"name": "Command Points", "$text": "2", "typeId": "e94a-17a1-a679-da92"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Riflemen",
+            "id": "7829-5f71-806a-7cfa",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "531a-1532-454d-6b53",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "9ca1-a9e9-52a5-1b6f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Rifle", "id": "054e-1d8b-8d98-a244", "hidden": false, "targetId": "4a75-fe9a-7bc2-b2eb", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Riflemen",
+                "id": "ea9b-f3c6-322b-9566",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Capitaine-Commandant Van Damme",
+        "id": "4bb2-bb0b-a63c-0410",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "a266-e58f-3edd-1f04",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 2}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 35}],
+        "rules": [
+          {
+            "name": "Tough",
+            "id": "b291-9086-43b1-46f3",
+            "description": "Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          },
+          {
+            "name": "Command Skills (+2)",
+            "id": "2b19-2c8f-3362-5a44",
+            "description": "(+2) to tied initiative roll result",
+            "hidden": false,
+            "page": 42,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          },
+          {
+            "name": "Assault Tactics (Van Damme)",
+            "id": "d1ce-f3f6-cbb0-1930",
+            "description": "At the start of a game, 2 units within Command Range of Van Damme permanetly gain the Furious Assault special rule.",
+            "hidden": false,
+            "page": 72,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Van Damme",
+            "id": "cdf0-f9f2-968e-1f64",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "f009-5977-43fb-c49d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "dbb8-1213-839d-109d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Pistol", "id": "cfe7-b7a5-5f11-9042", "hidden": false, "targetId": "95d9-3498-0a39-1994", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Commander",
+                "id": "6d72-39d7-ff07-6900",
+                "hidden": false,
+                "typeId": "4b8f-8ee3-acad-25cf",
+                "typeName": "Commander",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "4076-f899-be35-c73f"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "2a2e-b11b-4284-20c0"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "ed6d-9cfd-40b6-7413"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "504f-18f4-abc8-206b"},
+                  {"name": "Resolve", "$text": "6", "typeId": "1031-dbaf-5b8f-ae44"},
+                  {"name": "Command Range", "$text": "12", "typeId": "7282-da2c-ef0f-ab9d"},
+                  {"name": "Command Points", "$text": "2", "typeId": "e94a-17a1-a679-da92"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Riflemen",
+            "id": "4196-d0e5-2591-ec7c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "f584-ea6c-d2d7-6fa8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "9836-6255-8b81-1d00",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Rifle", "id": "6a50-ca97-0cf3-c633", "hidden": false, "targetId": "4a75-fe9a-7bc2-b2eb", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Riflemen",
+                "id": "7399-29d4-8eea-4a72",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "5", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Riflemen",
+        "id": "be35-c7f7-2e7e-f7b1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 3}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}],
+        "rules": [
+          {
+            "name": "Tough",
+            "id": "271f-0198-6b25-0dd4",
+            "description": "Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Riflemen",
+            "id": "3cdc-e59d-678d-7185",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Riflemen", "id": "7b64-a9ff-0d88-1c2f", "hidden": false, "primary": false, "targetId": "67a1-13eb-7ebe-3e14"}],
+            "constraints": [
+              {
+                "id": "8ad4-380f-d769-5fac",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 12
+              },
+              {
+                "id": "d1b8-f012-0b2c-7292",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 4}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Rifle", "id": "bb4b-46a4-e5f1-4945", "hidden": false, "targetId": "4a75-fe9a-7bc2-b2eb", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Riflemen",
+                "id": "b1d9-7e6b-1d38-0de6",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garde Civique Inexperienced Riflemen",
+        "id": "5bb7-9c8c-1763-f666",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 2}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}],
+        "rules": [
+          {
+            "name": "Tough",
+            "id": "779d-8e38-9253-8ada",
+            "description": "Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Riflemen",
+            "id": "64ae-560b-309a-879a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Riflemen", "id": "7c0b-98f4-a4f1-3479", "hidden": false, "primary": false, "targetId": "67a1-13eb-7ebe-3e14"}],
+            "constraints": [
+              {
+                "id": "0c73-cac6-7581-e6bf",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 12
+              },
+              {
+                "id": "ac67-4e95-37f2-ea1b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 3}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Rifle", "id": "06e7-2791-9549-95a2", "hidden": false, "targetId": "4a75-fe9a-7bc2-b2eb", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Riflemen",
+                "id": "db96-3b59-9506-b58b",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "7", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "7", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cavalry Unit",
+        "id": "221f-c86a-8040-0019",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "9c3c-9a9b-8d44-a5b3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}],
+        "infoLinks": [
+          {"name": "Cavalry", "id": "6ba7-dac0-1471-120e", "hidden": false, "targetId": "e7de-d771-1b12-2d8c", "type": "rule"},
+          {"name": "Blood Curdling Charge", "id": "ce64-a474-b655-4106", "hidden": false, "targetId": "02f2-58f2-7d54-1d7c", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Tough",
+            "id": "c515-7613-d366-443f",
+            "description": "Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Cavalry",
+            "id": "048e-91d7-d02b-11b3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "4476-5ebc-8499-4e47",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "c362-c4ff-c720-d479",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 12
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 7}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "infoLinks": [{"name": "Rifle", "id": "191c-5bf8-949d-dd36", "hidden": false, "targetId": "4a75-fe9a-7bc2-b2eb", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "Cavalry",
+                "id": "c8cb-1aeb-379b-07b0",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "5", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "6", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HMG Team",
+        "id": "144a-fd95-9c7f-d6fc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HMG", "id": "467a-4d1b-8979-7e5b", "hidden": false, "primary": false, "targetId": "8308-bccd-4d88-98a3"}],
+        "constraints": [
+          {
+            "id": "d86c-79d4-0457-f664",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 22}],
+        "infoLinks": [
+          {"name": "Heavy Machine Gun (HMG)", "id": "95f9-6044-8caf-f724", "hidden": false, "targetId": "b2cd-c19d-fcc9-e343", "type": "profile"},
+          {"name": "Heavy (Heavy Machine Gun)", "id": "d066-a56d-f719-2666", "hidden": false, "targetId": "72e1-ba72-61b0-bbe2", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Dog Carts",
+            "id": "2526-b197-b635-a611",
+            "description": "HMG Teams with this special rule can take Run actions.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Soldier",
+            "id": "33e0-bfc3-6132-0d3f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "eabe-6b14-83ae-d88d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "bab8-2b45-974f-1f44",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "profiles": [
+              {
+                "name": "Soldier",
+                "id": "7da0-f41c-beb9-93e2",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Carabiniers-cyclistes",
+        "id": "a14b-aed5-38bc-4a46",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "abac-efe4-bdb5-d31c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}],
+        "infoLinks": [{"name": "Close Combat Specialists", "id": "44ac-7566-cd57-e7fa", "hidden": false, "targetId": "115d-7af4-9534-bf7c", "type": "rule"}],
+        "rules": [
+          {
+            "name": "Bicycles",
+            "id": "a2ef-84f4-9670-801f",
+            "description": "Units with this special rule can be repositioned within their deployment zone up to 12\" before the game starts. If both forces have this special rule, players roll off and the winner decides which player's units redeploy first. Bicycles do not need to be modeled for game play, it is assumed that the unit is equipped with bicycles.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          },
+          {
+            "name": "Tough",
+            "id": "65b8-38ad-1bd3-f910",
+            "description": "Rmove 1 point of Fatigue from thsi unit before rolling during Rally actions.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Riflemen",
+            "id": "aa4a-4841-229c-454f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "1400-505b-2035-4320",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 8
+              },
+              {
+                "id": "fce0-5c55-4746-1f6c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 6}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "profiles": [
+              {
+                "name": "Soldier",
+                "id": "e9eb-933a-25f6-4b6d",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "6", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "5", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              },
+              {
+                "name": "Rifle",
+                "id": "5e0c-5bb8-450d-5e08",
+                "hidden": false,
+                "page": 28,
+                "publicationId": "e568-bb77-58cb-d3b5",
+                "typeId": "4e27-f466-2d49-aa96",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+                  {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+                  {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sniper",
+        "id": "6159-8423-9584-38f1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "9e57-bfd6-0c1d-d5ac",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+        "infoLinks": [{"name": "Hidden Setup", "id": "c9d7-1390-9487-7a4c", "hidden": false, "targetId": "30df-4a34-d73c-d9c9", "type": "rule"}],
+        "selectionEntries": [
+          {
+            "name": "Sniper",
+            "id": "94af-67c9-0b63-925e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "a2de-f91b-3786-7255",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 8}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}],
+            "infoLinks": [
+              {"name": "Sniper Rifle", "id": "02c3-74f6-3bcc-c340", "hidden": false, "targetId": "b312-55dd-ed0d-060a", "type": "rule"},
+              {"name": "Sniper Rifle", "id": "f54d-e3e8-9172-0ed5", "hidden": false, "targetId": "493b-86a6-5de7-328d", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "Sniper",
+                "id": "10fb-4607-a576-7f93",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "4", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "7", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Artillery Barrage",
+        "id": "2492-60cd-6ddd-2618",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "8761-83a8-d093-b371",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 15}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}]
+      },
+      {
+        "name": "Liege Fort Gun Barrage",
+        "id": "c83d-ac16-5c57-e891",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "e3ca-0cef-b512-e8ef",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 25}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}]
+      },
+      {
+        "name": "Cavalry Command Team",
+        "id": "4910-86ff-50ff-9064",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 26,
+        "publicationId": "fd38-3108-091c-56fe",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "47d8-4086-80ca-8cfc",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 8}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+        "modifiers": [
+          {
+            "field": "47d8-4086-80ca-8cfc",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "bd5c-df4c-87ae-06f8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Cavalry Command Team",
+            "id": "7109-3cf8-038a-b11e",
+            "description": "If you have a Core Cavalry Unit in the Force, you may, at the cost of an additional 8 points for the unit, replace all the models in the Command Team with Cavalry models. The Command Team gains the Cavalry Special Rule.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Field Gun",
+        "id": "2773-79df-829f-7cd7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "c595-f9ce-b3e5-9b70",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 25}],
+        "infoLinks": [{"name": "Heavy (Field Gun)", "id": "6491-e657-03dc-b4d8", "hidden": false, "targetId": "ebae-515f-360d-7602", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Field Gun",
+            "id": "61cd-c269-5209-9d73",
+            "hidden": false,
+            "publicationId": "e568-bb77-58cb-d3b5",
+            "typeId": "4e27-f466-2d49-aa96",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Arc of Fire", "$text": "Forward 180", "typeId": "6825-d018-0d99-6301"},
+              {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+              {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Soldier",
+            "id": "6d38-a33b-c757-d34c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "1f4b-5c76-7f44-446b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 4
+              },
+              {
+                "id": "2f35-0f91-1d84-53d6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "profiles": [
+              {
+                "name": "Soldier",
+                "id": "c09b-5e9e-3335-7c41",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flagbearer/Musician",
+        "id": "7ab7-8b90-db9f-49eb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 26,
+        "publicationId": "fd38-3108-091c-56fe",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "9950-8ab1-78d5-6faa",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 6}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+        "rules": [
+          {
+            "name": "Flagbearer/Musician",
+            "id": "2559-4ed7-a0f4-ad40",
+            "description": "At the cost of 6 points, a Flagbearer or Musician can be added to any force and replace one of the riflemen that make up the commander's unit. The Flagbearer/Musician increases the commander's command range by 2\". The Flagbearer/Musician is not armed. The Flagbearer/Musician should be represented by an identifiable model, such as a bagpiper. Forces are allowed only 1 The Flagbearer/Musician.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Medic",
+        "id": "b925-ad4f-6249-d466",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 26,
+        "publicationId": "fd38-3108-091c-56fe",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "f365-4923-eccc-6560",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 4}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+        "rules": [
+          {
+            "name": "Medic",
+            "id": "67be-6f21-e68c-94f9",
+            "description": "At the cost of 4 points, a medic model can be added to any force and replaces one of the riflemen that make up the commander's unit. At the start of a turn the medic can remove 1 Fatigue Point from a unit within 6\" of the Medic model. The medic can perform this action two times per game and once per turn. The medic is not armed. The medic should be represented by an identifiable model. Forces are allowed only 1 medic.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Trench Mortar Team",
+        "id": "f480-87b9-f5ec-a39a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 27,
+        "publicationId": "fd38-3108-091c-56fe",
+        "type": "unit",
+        "constraints": [
+          {
+            "id": "f403-e644-838d-44e3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 20}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}],
+        "infoLinks": [{"name": "Heavy (Trench Mortar)", "id": "3046-b101-643c-5e01", "hidden": false, "targetId": "1c0c-994b-b675-58d9", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Trench Catapult",
+            "id": "e9aa-fcfb-b757-76ea",
+            "hidden": false,
+            "page": 28,
+            "publicationId": "e568-bb77-58cb-d3b5",
+            "typeId": "4e27-f466-2d49-aa96",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Arc of Fire", "$text": "Forward 180", "typeId": "6825-d018-0d99-6301"},
+              {"name": "Range", "$text": "6-30", "typeId": "7fd2-b7fd-b233-e1a6"},
+              {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Soldier",
+            "id": "681c-1670-a0fa-468b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "e2ef-38fe-8bc0-caa4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "2167-67ef-4488-3f1c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "profiles": [
+              {
+                "name": "Soldier",
+                "id": "9b55-eace-2aa3-ce2a",
+                "hidden": false,
+                "typeId": "7fb1-1a16-229f-b7b6",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "Shoot", "$text": "6", "typeId": "e51e-c21c-82c7-cc74"},
+                  {"name": "Close Combat", "$text": "6", "typeId": "35b9-e1b9-c6af-8cd7"},
+                  {"name": "Shoot Save", "$text": "6", "typeId": "25f3-8abf-392e-c887"},
+                  {"name": "Close Combat Save", "$text": "7", "typeId": "7a04-e5ac-d545-f7bb"},
+                  {"name": "Resolve", "$text": "6", "typeId": "c797-eaf9-cb12-a26b"}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
