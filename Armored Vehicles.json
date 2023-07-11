@@ -1,0 +1,789 @@
+{
+  "catalogue": {
+    "name": "Armored Vehicles",
+    "id": "860c-e774-b42e-f3b4",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "8673-27a3-2308-77d8",
+    "gameSystemRevision": 6,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {"name": "Entente", "id": "3f82-9e4c-58ad-500f", "hidden": false},
+      {"name": "Central Powers", "id": "f414-631e-bba5-2c9d", "hidden": false},
+      {"name": "Armored Car", "id": "cae3-0810-f282-e706", "hidden": false},
+      {"name": "Gunboat", "id": "e398-1310-1324-985c", "hidden": false}
+    ],
+    "entryLinks": [
+      {
+        "name": "A7V",
+        "id": "15e6-a6bd-b44b-e8ed",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0537-d971-c4d2-cadd",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "20b6-3154-961e-8366", "hidden": false, "primary": false, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Central Powers", "id": "37a1-e0b6-dde4-3993", "hidden": false, "primary": true, "targetId": "f414-631e-bba5-2c9d"}
+        ]
+      },
+      {
+        "name": "Whippet",
+        "id": "1c18-e6ba-6afb-ac72",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b7e7-d90c-a42b-8fad",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "3598-3044-24d8-7b79", "hidden": false, "primary": false, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Entente", "id": "dcf1-1d56-cae2-160f", "hidden": false, "primary": true, "targetId": "3f82-9e4c-58ad-500f"}
+        ]
+      },
+      {
+        "name": "Mark IV (Female)",
+        "id": "1bfe-2861-9174-7d19",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cb16-75c4-bcee-ea6c",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ebed-7629-d0b3-dc7f", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Entente", "id": "a841-4cf2-c87a-ab37", "hidden": false, "primary": false, "targetId": "3f82-9e4c-58ad-500f"},
+          {"name": "Central Powers", "id": "379c-5979-adba-00e3", "hidden": false, "primary": false, "targetId": "f414-631e-bba5-2c9d"}
+        ]
+      },
+      {
+        "name": "Gunboat",
+        "id": "6dd3-1d7b-69f4-f100",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4c4b-08c8-c493-0669",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "a152-7da4-875b-b0c7", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Gunboat", "id": "9b91-ee0c-51f2-de7a", "hidden": false, "primary": false, "targetId": "e398-1310-1324-985c"},
+          {"name": "Entente", "id": "f2f9-83d6-0c06-6eaf", "hidden": false, "primary": false, "targetId": "3f82-9e4c-58ad-500f"},
+          {"name": "Central Powers", "id": "def5-d543-34c7-1693", "hidden": false, "primary": false, "targetId": "f414-631e-bba5-2c9d"}
+        ]
+      },
+      {
+        "name": "Renault FT-17 (C)",
+        "id": "3834-5571-01e2-9d94",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "728d-5c2b-332b-1e89",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "99c3-7432-8b25-0b36", "hidden": false, "primary": false, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Entente", "id": "a9f8-8dd7-d06d-3c7b", "hidden": false, "primary": true, "targetId": "3f82-9e4c-58ad-500f"}
+        ]
+      },
+      {
+        "name": "Armored Car",
+        "id": "5e55-6d9d-5a23-b5f1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f4db-1c24-b055-bc18",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "09d7-87b6-5cba-8014", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Entente", "id": "a88c-44e8-9bd2-90f5", "hidden": false, "primary": false, "targetId": "3f82-9e4c-58ad-500f"},
+          {"name": "Central Powers", "id": "baff-4e77-abe0-558f", "hidden": false, "primary": false, "targetId": "f414-631e-bba5-2c9d"},
+          {"name": "Armored Car", "id": "d466-1764-de84-d226", "hidden": false, "primary": false, "targetId": "cae3-0810-f282-e706"}
+        ]
+      },
+      {
+        "name": "Mark IV (Male)",
+        "id": "a52f-4732-6061-cd01",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9216-2375-9875-319e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2fe5-866c-7d41-0c42", "hidden": false, "primary": true, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Entente", "id": "1bf6-c8ee-b40c-7266", "hidden": false, "primary": false, "targetId": "3f82-9e4c-58ad-500f"},
+          {"name": "Central Powers", "id": "1e43-b36f-90d3-b3c2", "hidden": false, "primary": false, "targetId": "f414-631e-bba5-2c9d"}
+        ]
+      },
+      {
+        "name": "Renault FT-17 (MG)",
+        "id": "88ff-3da4-6954-af62",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3f0f-3913-2aec-3ed7",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2686-7f46-793a-a22a", "hidden": false, "primary": false, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Entente", "id": "b1fd-05f1-eaa4-9bab", "hidden": false, "primary": true, "targetId": "3f82-9e4c-58ad-500f"}
+        ]
+      },
+      {
+        "name": "Saint-Chamond",
+        "id": "fbdd-4e5e-ed50-271e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8070-c847-df61-7cf0",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9ec4-9c9e-8adb-8697", "hidden": false, "primary": false, "targetId": "8a98-dc03-b3f4-eeb6"},
+          {"name": "Entente", "id": "44a8-3930-8aec-0e18", "hidden": false, "primary": true, "targetId": "3f82-9e4c-58ad-500f"}
+        ]
+      }
+    ],
+    "forceEntries": [
+      {
+        "name": "Entente",
+        "id": "cce5-2aad-b30e-1e1c",
+        "hidden": false,
+        "categoryLinks": [{"name": "Support", "id": "dfd4-f705-b911-798e", "hidden": false, "primary": false, "targetId": "8a98-dc03-b3f4-eeb6"}]
+      },
+      {
+        "name": "Central Powers",
+        "id": "db77-1706-b601-cf3a",
+        "hidden": false,
+        "categoryLinks": [{"name": "Support", "id": "6e7a-33cf-e3dc-b18e", "hidden": false, "primary": false, "targetId": "8a98-dc03-b3f4-eeb6"}]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "A7V",
+        "id": "0537-d971-c4d2-cadd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 150}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}],
+        "profiles": [
+          {
+            "name": "A7V",
+            "id": "d129-c31b-4011-f196",
+            "hidden": false,
+            "typeId": "7edc-748a-d4fe-a402",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Shoot", "$text": "6", "typeId": "1ecf-61a9-e748-13a5"},
+              {"name": "Resolve", "$text": "6", "typeId": "0bc6-7492-6f5a-afd1"},
+              {
+                "name": "Weapons",
+                "$text": "1 - 57mm gun (Fixed Forward 180)\n2 - HMG (Fixed Right Side 180)\n2 - HMG (Fixed Left Side 180)\n2 - HMG (Fixed Rear Side 180)",
+                "typeId": "a985-d4b6-0f2b-b8a7"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Heavy Gun (Vehicle)",
+            "id": "7b20-775c-e3f9-ab9b",
+            "description": "If this weapon rolls a success on its Shoot action, roll 5 or more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 instead of a normal save (cover bonuses are not applied for Saves against Heavy Gun damage). Defender removes 1 model for each failed save. Resolve test is performed as normal.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          },
+          {
+            "name": "Heavy Machine Gun (Vehicle)",
+            "id": "612e-6897-b60b-fb02",
+            "description": "(+1) to the target number of save tests taken as a result of being hit by this weapon.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ]
+      },
+      {
+        "name": "Mark IV (Male)",
+        "id": "9216-2375-9875-319e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 100}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}],
+        "profiles": [
+          {
+            "name": "Mark IV (Male)",
+            "id": "69b5-bf68-fbc0-9078",
+            "hidden": false,
+            "typeId": "7edc-748a-d4fe-a402",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Shoot", "$text": "6", "typeId": "1ecf-61a9-e748-13a5"},
+              {"name": "Resolve", "$text": "6", "typeId": "0bc6-7492-6f5a-afd1"},
+              {
+                "name": "Weapons",
+                "$text": "1 - HMG (Fixed Forward 45)\n1 - 6 Pounder gun (Fixed Right Side 90)\n1 - 6 Pounder gun (Fixed Left Side 90)",
+                "typeId": "a985-d4b6-0f2b-b8a7"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Heavy Gun (Vehicle)",
+            "id": "e2d8-f28f-ee74-556b",
+            "description": "If this weapon rolls a success on its Shoot action, roll 5 or more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 instead of a normal save (cover bonuses are not applied for Saves against Heavy Gun damage). Defender removes 1 model for each failed save. Resolve test is performed as normal.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          },
+          {
+            "name": "Heavy Machine Gun (Vehicle)",
+            "id": "0437-2b4f-ee5e-e97f",
+            "description": "(+1) to the target number of save tests taken as a result of being hit by this weapon.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ]
+      },
+      {
+        "name": "Mark IV (Female)",
+        "id": "cb16-75c4-bcee-ea6c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 100}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}],
+        "profiles": [
+          {
+            "name": "Mark IV (Female)",
+            "id": "1da0-0b82-c86c-49d2",
+            "hidden": false,
+            "typeId": "7edc-748a-d4fe-a402",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Shoot", "$text": "6", "typeId": "1ecf-61a9-e748-13a5"},
+              {"name": "Resolve", "$text": "6", "typeId": "0bc6-7492-6f5a-afd1"},
+              {
+                "name": "Weapons",
+                "$text": "1 - HMG (Fixed Forward 45)\n1 - HMG  (Fixed Right Side Forward 90)\n1 - HMG  (Fixed Right Side Rear 90)\n1 - HMG  (Fixed Left Side Forward 90)\n1 - HMG  (Fixed Left Side Rear 90)",
+                "typeId": "a985-d4b6-0f2b-b8a7"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Heavy Machine Gun (Vehicle)",
+            "id": "2d0d-1d25-40e1-ca4d",
+            "description": "(+1) to the target number of save tests taken as a result of being hit by this weapon.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ]
+      },
+      {
+        "name": "Whippet",
+        "id": "b7e7-d90c-a42b-8fad",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 75}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}],
+        "profiles": [
+          {
+            "name": "Whippet",
+            "id": "a0d6-eafb-fe6f-2b3e",
+            "hidden": false,
+            "typeId": "7edc-748a-d4fe-a402",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Shoot", "$text": "6", "typeId": "1ecf-61a9-e748-13a5"},
+              {"name": "Resolve", "$text": "6", "typeId": "0bc6-7492-6f5a-afd1"},
+              {
+                "name": "Weapons",
+                "$text": "1 - HMG (Fixed Forward 180 )\n1 - HMG  (Fixed Right Side 180)\n1 - HMG  (Fixed Left Side 180)\n1 - HMG  (Fixed Rear 180)",
+                "typeId": "a985-d4b6-0f2b-b8a7"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Heavy Machine Gun (Vehicle)",
+            "id": "4813-57f8-e65e-50a8",
+            "description": "(+1) to the target number of save tests taken as a result of being hit by this weapon.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ]
+      },
+      {
+        "name": "Renault FT-17 (MG)",
+        "id": "3f0f-3913-2aec-3ed7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 50}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}],
+        "profiles": [
+          {
+            "name": "Renault FT-17",
+            "id": "b7f0-42ef-bf77-2b79",
+            "hidden": false,
+            "typeId": "7edc-748a-d4fe-a402",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Shoot", "$text": "6", "typeId": "1ecf-61a9-e748-13a5"},
+              {"name": "Resolve", "$text": "6", "typeId": "0bc6-7492-6f5a-afd1"},
+              {"name": "Weapons", "$text": "1 - HMG (360)", "typeId": "a985-d4b6-0f2b-b8a7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Heavy Machine Gun (Vehicle)",
+            "id": "94b4-d461-0bf7-56ea",
+            "description": "(+1) to the target number of save tests taken as a result of being hit by this weapon.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ]
+      },
+      {
+        "name": "Renault FT-17 (C)",
+        "id": "728d-5c2b-332b-1e89",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 50}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}],
+        "profiles": [
+          {
+            "name": "Renault FT-17",
+            "id": "6dd4-f56b-b761-dd8a",
+            "hidden": false,
+            "typeId": "7edc-748a-d4fe-a402",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Shoot", "$text": "6", "typeId": "1ecf-61a9-e748-13a5"},
+              {"name": "Resolve", "$text": "6", "typeId": "0bc6-7492-6f5a-afd1"},
+              {"name": "Weapons", "$text": "1 - 37mm gun (360)", "typeId": "a985-d4b6-0f2b-b8a7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Heavy Gun (Vehicle)",
+            "id": "4b2f-c89e-0d0a-5abe",
+            "description": "If this weapon rolls a success on its Shoot action, roll 5 or more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 instead of a normal save (cover bonuses are not applied for Saves against Heavy Gun damage). Defender removes 1 model for each failed save. Resolve test is performed as normal.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ]
+      },
+      {
+        "name": "Saint-Chamond",
+        "id": "8070-c847-df61-7cf0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 100}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}],
+        "profiles": [
+          {
+            "name": "Saint-Chamond",
+            "id": "27fc-aaf7-bff6-e194",
+            "hidden": false,
+            "typeId": "7edc-748a-d4fe-a402",
+            "typeName": "Vehicle",
+            "characteristics": [
+              {"name": "Shoot", "$text": "6", "typeId": "1ecf-61a9-e748-13a5"},
+              {"name": "Resolve", "$text": "6", "typeId": "0bc6-7492-6f5a-afd1"},
+              {
+                "name": "Weapons",
+                "$text": "1 - 75mm gun (Fixed Forward 180)\n1 - HMG (Fixed Right Side 180)\n1 - HMG (Fixed Left Side 180)\n1 - HMG (Fixed Rear Side 180)",
+                "typeId": "a985-d4b6-0f2b-b8a7"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Heavy Gun (Vehicle)",
+            "id": "4fcc-1b77-60fe-846b",
+            "description": "If this weapon rolls a success on its Shoot action, roll 5 or more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 instead of a normal save (cover bonuses are not applied for Saves against Heavy Gun damage). Defender removes 1 model for each failed save. Resolve test is performed as normal.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          },
+          {
+            "name": "Heavy Machine Gun (Vehicle)",
+            "id": "72e9-3691-04a5-cbdd",
+            "description": "(+1) to the target number of save tests taken as a result of being hit by this weapon.",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "e568-bb77-58cb-d3b5"
+          }
+        ]
+      },
+      {
+        "name": "Armored Car",
+        "id": "f4db-1c24-b055-bc18",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Heavy Gun",
+            "id": "0006-451f-43e6-a02f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 20}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "rules": [
+              {
+                "name": "Heavy Gun (Vehicle)",
+                "id": "dd8f-a05a-eb91-dfda",
+                "description": "If this weapon rolls a success on its Shoot action, roll 5 or more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 instead of a normal save (cover bonuses are not applied for Saves against Heavy Gun damage). Defender removes 1 model for each failed save. Resolve test is performed as normal.",
+                "hidden": false,
+                "page": 97,
+                "publicationId": "e568-bb77-58cb-d3b5"
+              }
+            ]
+          },
+          {
+            "name": "Turret",
+            "id": "4f73-7050-fe76-f963",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 5}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}]
+          },
+          {
+            "name": "Extra Armor",
+            "id": "bd8c-c4ce-e958-336c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 5}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "rules": [
+              {
+                "name": "Extra Armor",
+                "id": "4b5a-eaf1-0bf8-297a",
+                "description": "Armored Cars with extra armor may adjust rolls, once per game, on the Armored Car Lucky Hit table by +1 or -1, defending player chooses).",
+                "hidden": false,
+                "page": 194,
+                "publicationId": "fd38-3108-091c-56fe"
+              }
+            ]
+          },
+          {
+            "name": "Reverse Drive",
+            "id": "050d-f531-abdd-dad2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 5}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "rules": [
+              {
+                "name": "Reverse Drive",
+                "id": "5be3-3e7e-9fab-9902",
+                "description": "Armored Cars with reverse drive can make full 6\" Drive Actions in reverse).",
+                "hidden": false,
+                "page": 194,
+                "publicationId": "fd38-3108-091c-56fe"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Chassis",
+            "id": "93a4-50f8-540d-e543",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "8edf-ba17-18cf-bc9b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "1fcc-b6b8-3cbf-a97c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Armored",
+                "id": "f9b2-025a-37a8-49fb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 20}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}]
+              },
+              {
+                "name": "Unarmored",
+                "id": "4c14-c936-b93a-45fb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 10}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "Machine Gun",
+            "id": "6fed-c202-d84d-cd4e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "16c2-fb7c-ecac-2453",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Light Machine Gun",
+                "id": "f127-2c24-7ae4-f75e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 8}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Light Machine Gun (LMG)",
+                    "id": "f87d-b62e-31c9-a4e9",
+                    "hidden": false,
+                    "page": 27,
+                    "publicationId": "e568-bb77-58cb-d3b5",
+                    "typeId": "4e27-f466-2d49-aa96",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+                      {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+                      {"name": "Shots", "$text": "4", "typeId": "5d14-5c46-92b0-bc88"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Heavy Machine Gun",
+                "id": "4ed0-f712-32a4-7cd2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 15}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Heavy Machine Gun (HMG)",
+                    "id": "b176-dfbd-2479-8ec1",
+                    "hidden": false,
+                    "page": 27,
+                    "publicationId": "e568-bb77-58cb-d3b5",
+                    "typeId": "4e27-f466-2d49-aa96",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Arc of Fire", "$text": "Forward 180", "typeId": "6825-d018-0d99-6301"},
+                      {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+                      {"name": "Shots", "$text": "8", "typeId": "5d14-5c46-92b0-bc88"}
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Heavy Machine Gun (Vehicle)",
+                    "id": "d237-b48f-5226-4251",
+                    "description": "(+1) to the target number of save tests taken as a result of being hit by this weapon.",
+                    "hidden": false,
+                    "page": 97,
+                    "publicationId": "e568-bb77-58cb-d3b5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gunboat",
+        "id": "4c4b-08c8-c493-0669",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 1}, {"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Heavy Gun",
+            "id": "7413-20f5-4937-be28",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 20}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "rules": [
+              {
+                "name": "Heavy Gun (Vehicle)",
+                "id": "887d-1376-7794-894e",
+                "description": "If this weapon rolls a success on its Shoot action, roll 5 or more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 instead of a normal save (cover bonuses are not applied for Saves against Heavy Gun damage). Defender removes 1 model for each failed save. Resolve test is performed as normal.",
+                "hidden": false,
+                "page": 97,
+                "publicationId": "e568-bb77-58cb-d3b5"
+              }
+            ]
+          },
+          {
+            "name": "Turret",
+            "id": "f9a9-de9c-1de2-d81c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 5}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}]
+          },
+          {
+            "name": "Extra Armor",
+            "id": "6204-2606-ba8c-7557",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 5}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+            "rules": [
+              {
+                "name": "Extra Armor",
+                "id": "dba7-af40-85b4-16d2",
+                "description": "Armored Cars with extra armor may adjust rolls, once per game, on the Armored Car Lucky Hit table by +1 or -1, defending player chooses).",
+                "hidden": false,
+                "page": 194,
+                "publicationId": "fd38-3108-091c-56fe"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Machine Gun",
+            "id": "d1b7-b440-5bf0-27c7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0f02-0440-e3dc-7938",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Light Machine Gun",
+                "id": "3059-35cf-5507-837f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 8}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Light Machine Gun (LMG)",
+                    "id": "1079-b96d-f36d-2ae5",
+                    "hidden": false,
+                    "page": 27,
+                    "publicationId": "e568-bb77-58cb-d3b5",
+                    "typeId": "4e27-f466-2d49-aa96",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+                      {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+                      {"name": "Shots", "$text": "4", "typeId": "5d14-5c46-92b0-bc88"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Heavy Machine Gun",
+                "id": "541f-cf11-c6ec-7061",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Force Points", "typeId": "68ed-8066-7728-0393", "value": 15}, {"name": "Initiative", "typeId": "af03-e129-f64f-b0a5", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Heavy Machine Gun (HMG)",
+                    "id": "cb02-6c48-4bcb-b58f",
+                    "hidden": false,
+                    "page": 27,
+                    "publicationId": "e568-bb77-58cb-d3b5",
+                    "typeId": "4e27-f466-2d49-aa96",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Arc of Fire", "$text": "Forward 180", "typeId": "6825-d018-0d99-6301"},
+                      {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+                      {"name": "Shots", "$text": "8", "typeId": "5d14-5c46-92b0-bc88"}
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Heavy Machine Gun (Vehicle)",
+                    "id": "b540-b0d0-ece6-c0bd",
+                    "description": "(+1) to the target number of save tests taken as a result of being hit by this weapon.",
+                    "hidden": false,
+                    "page": 97,
+                    "publicationId": "e568-bb77-58cb-d3b5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

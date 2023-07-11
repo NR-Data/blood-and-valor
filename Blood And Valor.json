@@ -1,0 +1,882 @@
+{
+  "gameSystem": {
+    "name": "Blood & Valor",
+    "id": "8673-27a3-2308-77d8",
+    "battleScribeVersion": 2.03,
+    "revision": 6,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {"name": "Core", "id": "1807-d10a-531c-67ee", "hidden": false},
+      {"name": "Command", "id": "46c4-9b7c-2612-66d5", "hidden": false},
+      {"name": "Support", "id": "8a98-dc03-b3f4-eeb6", "hidden": false},
+      {"name": "Riflemen", "id": "67a1-13eb-7ebe-3e14", "hidden": false},
+      {"name": "Close Combat Specialists", "id": "31c8-7c39-1c00-599e", "hidden": false},
+      {"name": "HMG", "id": "8308-bccd-4d88-98a3", "hidden": false},
+      {"name": "Command Upgrades", "id": "5cbb-f214-e1ea-23f4", "hidden": false},
+      {"name": "Cavalry", "id": "bd5c-df4c-87ae-06f8", "hidden": false}
+    ],
+    "costTypes": [
+      {"name": "Force Points", "id": "68ed-8066-7728-0393", "defaultCostLimit": -1, "hidden": false},
+      {"name": "Initiative", "id": "af03-e129-f64f-b0a5", "defaultCostLimit": -1, "hidden": false}
+    ],
+    "forceEntries": [{"name": "No Restrictions", "id": "6c38-5037-9dcc-45f3", "hidden": false}],
+    "profileTypes": [
+      {
+        "name": "Unit",
+        "id": "7fb1-1a16-229f-b7b6",
+        "characteristicTypes": [
+          {"name": "Shoot", "id": "e51e-c21c-82c7-cc74"},
+          {"name": "Close Combat", "id": "35b9-e1b9-c6af-8cd7"},
+          {"name": "Shoot Save", "id": "25f3-8abf-392e-c887"},
+          {"name": "Close Combat Save", "id": "7a04-e5ac-d545-f7bb"},
+          {"name": "Resolve", "id": "c797-eaf9-cb12-a26b"}
+        ]
+      },
+      {
+        "name": "Commander",
+        "id": "4b8f-8ee3-acad-25cf",
+        "characteristicTypes": [
+          {"name": "Shoot", "id": "4076-f899-be35-c73f"},
+          {"name": "Close Combat", "id": "2a2e-b11b-4284-20c0"},
+          {"name": "Shoot Save", "id": "ed6d-9cfd-40b6-7413"},
+          {"name": "Close Combat Save", "id": "504f-18f4-abc8-206b"},
+          {"name": "Resolve", "id": "1031-dbaf-5b8f-ae44"},
+          {"name": "Command Range", "id": "7282-da2c-ef0f-ab9d"},
+          {"name": "Command Points", "id": "e94a-17a1-a679-da92"}
+        ]
+      },
+      {
+        "name": "Weapon",
+        "id": "4e27-f466-2d49-aa96",
+        "characteristicTypes": [{"name": "Arc of Fire", "id": "6825-d018-0d99-6301"}, {"name": "Range", "id": "7fd2-b7fd-b233-e1a6"}, {"name": "Shots", "id": "5d14-5c46-92b0-bc88"}]
+      },
+      {
+        "name": "Barrage",
+        "id": "953a-d27f-8efa-ae8c",
+        "characteristicTypes": [{"name": "Cost", "id": "2c8d-ddc8-44ef-6d91"}, {"name": "Initiative", "id": "c82a-00b4-f0cc-ca5f"}]
+      },
+      {
+        "name": "Vehicle",
+        "id": "7edc-748a-d4fe-a402",
+        "characteristicTypes": [{"name": "Shoot", "id": "1ecf-61a9-e748-13a5"}, {"name": "Resolve", "id": "0bc6-7492-6f5a-afd1"}, {"name": "Weapons", "id": "a985-d4b6-0f2b-b8a7"}]
+      }
+    ],
+    "publications": [
+      {"name": "Blood and Valor", "id": "e568-bb77-58cb-d3b5"},
+      {"name": "FAQ v1 04/03/2020", "id": "a2c8-e186-d505-1c23"},
+      {"name": "Blood And Valor: End of Empires", "id": "fd38-3108-091c-56fe"}
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Flamethrower",
+        "id": "4782-36f7-377c-8416",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "4", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "-", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Grenades",
+        "id": "fe97-2c75-c928-6a4e",
+        "hidden": false,
+        "page": 28,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "4", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Heavy Machine Gun (HMG)",
+        "id": "b2cd-c19d-fcc9-e343",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "Forward 180", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "8", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Infantry Support Gun",
+        "id": "e813-bfef-3fbd-71f7",
+        "hidden": false,
+        "page": 28,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "Forward 180", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Light Machine Gun (LMG)",
+        "id": "1d23-0346-2764-15ed",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "4", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Pistol",
+        "id": "95d9-3498-0a39-1994",
+        "hidden": false,
+        "page": 28,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "6", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Rifle",
+        "id": "4a75-fe9a-7bc2-b2eb",
+        "hidden": false,
+        "page": 28,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Rifle Grenade",
+        "id": "1b3a-6adc-133f-56ab",
+        "hidden": false,
+        "page": 28,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "18", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Sniper Rifle",
+        "id": "493b-86a6-5de7-328d",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Submachine Gun (SMG)",
+        "id": "657f-e7a8-4d90-95c2",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "12", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Trench Catapult",
+        "id": "597e-9e94-ec4d-c2ff",
+        "hidden": false,
+        "page": 28,
+        "publicationId": "e568-bb77-58cb-d3b5",
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "Forward 180", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "6-24", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      },
+      {
+        "name": "Tankgeweher",
+        "id": "13d4-efbd-a18c-eb4e",
+        "hidden": false,
+        "typeId": "4e27-f466-2d49-aa96",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Arc of Fire", "$text": "360", "typeId": "6825-d018-0d99-6301"},
+          {"name": "Range", "$text": "-", "typeId": "7fd2-b7fd-b233-e1a6"},
+          {"name": "Shots", "$text": "1", "typeId": "5d14-5c46-92b0-bc88"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Advance Setup",
+        "id": "f3b6-b824-6a53-0fd0",
+        "description": "This unit may take 1 Free Run action immediately after all forces are deployed.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Aggressive Tactics (Woodfill)",
+        "id": "98a0-6f32-2ffb-75c1",
+        "description": "At the start of a game, 2 units within Command Range of Woodfill permanetly gain the Furious Assault special rule.",
+        "hidden": false,
+        "page": 72,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Assault Experts",
+        "id": "b854-6b92-d028-0cff",
+        "description": "This unit may reroll all failed results during the Shoot Save test of Defensive Fire.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Assault Tactics (Driant)",
+        "id": "5386-d4ce-01c9-da62",
+        "description": "At the start of the game, 2 units within Command Range of Driant permanently gain the Furious Assault special rule.",
+        "hidden": false,
+        "page": 64,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Assault Tactics (Van Damme)",
+        "id": "d3c4-0c69-084c-0de5",
+        "description": "At the start of a game, 2 units within Command Range of Van Damme permanetly gain the Furious Assault special rule.",
+        "hidden": false,
+        "page": 72,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Bicycles",
+        "id": "6b27-b505-ac27-3723",
+        "description": "Units with this special rule can be repositioned within their deployment zone up to 12\" before the game starts. If both forces have this special rule, players roll off and the winner decides which player's units redeploy first. Bicycles do not need to be modeled for game play, it is assumed that the unit is equipped with bicycles.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Blood Curdling Charge",
+        "id": "02f2-58f2-7d54-1d7c",
+        "description": "(-1) to the target number of the fight tests of this unit during Charge actions.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Cavalry",
+        "id": "e7de-d771-1b12-2d8c",
+        "description": "This unit may take a Free Advance action each time the unit activates. If the unit is Shaken at the start of its activation it cannot take the Free Advance.\nThis unit has the Blood Curdling Charge special rule.\n(+1) to the target number of Shoot Saves taken by this unit.\nMounted units cannot cross barbed wire obstacles, or enter buildings or ruins.\n\nAs a Free Action, the unit may Dismount and send their horses to the rear. To dismount, replace the Cavalry models with Riflemen models. Dismounted Cavalry units lose the Cavalry rule and cannot mount their horses again.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Close Combat Specialists",
+        "id": "115d-7af4-9534-bf7c",
+        "description": "This unit may reroll all failed results during Close Combat skill tests and Hung on the Wirre tests.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Close Range",
+        "id": "5006-af63-3e18-9e29",
+        "description": "(+1) shots when target is within 6\".",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Command Skills (+1)",
+        "id": "5a5c-2535-e6a5-07f5",
+        "description": "(+1) to tied initiative roll result",
+        "hidden": false,
+        "page": 42,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Command Skills (+2)",
+        "id": "96b9-600d-1a8e-0be0",
+        "description": "(+2) to tied initiative roll result",
+        "hidden": false,
+        "page": 42,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Devil Dogs",
+        "id": "6978-4cdd-881d-6a3c",
+        "description": "This unit may reroll all failed results during Resolve skills tests.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Dog Carts",
+        "id": "7fc4-47cf-ee4e-94aa",
+        "description": "HMG Teams with this special rule can take Run actions.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Expert Concealment",
+        "id": "162a-ac00-3ce9-b681",
+        "description": "Once per game, may reroll 1 failed result during a Shoot save test.",
+        "hidden": false,
+        "page": 44,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Expert Gunner",
+        "id": "2619-8a8a-adb1-d298",
+        "description": "Sergeant Daly's Heavy Machine Gun instead rolls 10 D10's when taking a Shoot Action.",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Extreme Valor (Junger)",
+        "id": "0b53-d9e4-931c-8ebc",
+        "description": "All Units within Junger's command range receive (-2) to their Resolve test target number, including Junger's command unit.",
+        "hidden": false,
+        "page": 57,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Extreme Valor (Waddell)",
+        "id": "ea64-661e-19a0-9d6f",
+        "description": "All friendly within Waddell's command range instead receive (-2) to their Resolve test target number, including Waddell's command unit.",
+        "hidden": false,
+        "page": 64,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Flamethrower",
+        "id": "8731-0cbc-db62-54af",
+        "description": "Instead of rolling a normal Shoot skill test, roll 1D10 for each model in the defending unit with a target number of 4. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Flamethrower saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.\n\nLine of Sight and Range are determinded from the model holding the Flamethrower.",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Furious Assault",
+        "id": "6f7f-9792-a4d2-b245",
+        "description": "This unit may Charge from 6\" away from its target and adds 2\" to their Advance movement during Charge actions.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Grenades",
+        "id": "44bf-87f9-41ec-3430",
+        "description": "Instead of rolling a noirmal Shoot skill test, roll 3D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Grenade saves). Defender removes 1 model for each failed save. Resolve test is performed as normal. A unit performing a Grenade attack cannot roll more attack dice than there are models left in the attacking unit.",
+        "hidden": false,
+        "page": 28,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Heavy (Heavy Machine Gun)",
+        "id": "72e1-ba72-61b0-bbe2",
+        "description": "This unit may not take a Shoot action in the same activation that it takes and Advance action. This unit cannot use the Run action and cannot move more than 4\" in an activation. If the crew of this gun is ever reduced to 1 model, the gun can no longer be moved.\n\n(+1) to the target number of save tests taken as a result of being hit by this weapon.\n\nLine of Sight and Range are determined from the Heavy Machine Gun model.",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Heavy (Field Gun)",
+        "id": "ebae-515f-360d-7602",
+        "description": "This unit many not move and is emplaced permanently in one position for the duration of the game. The gun can be swiveled on the spot, to change its firing arc. The gun cannot shoot in the same turn that it was swiveled. If hte crew of this gun is ever reduced to 1 model, the gun can no longer be swiveled. If the crew of this gun is ever reduced to 1 model, the gun can no longer be swiveled. If this weapon rolls a success on its Shoot Action, roll 6 more D10's with a target number of 7. The defender rolls 1d10 for each successful save (Cover bonuses are not applied for Field Gun saves). Defender removes 1 model for each failed save. Resolve is performed as normal. Line of sight and range are determined from the Field Gun model.\n\nWhen firing at armored vehicles treat the Field Gun as a Heavy Gun (page 96 core rule book).",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Heavy (Trench Catapult)",
+        "id": "3f65-576b-3c6d-13e3",
+        "description": "This unit may not take a Shoot action in the same activation that it takes and Advance action. This unit cannot use the Run action and cannot move more than 4\" in an activation. If the crew of this gun is ever reduced to 1 model, the gun can no longer be moved.\n\nIf this weapon rolls a success on its Shoot action, roll 5 more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Trench Catapult saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.\n\nLine of Sight and Range are determined from the Trench Catapult model. Friendly troops do not block line of sight for a Trench Catapult.",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Hero Sniper",
+        "id": "186e-0682-bc2a-b8e8",
+        "description": "May reroll all failed results during a Shoot test.",
+        "hidden": false,
+        "page": 44,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Hidden Setup",
+        "id": "30df-4a34-d73c-d9c9",
+        "description": "This unit starts the game with a Hidden token. Units with a Hidden Setup token cannot be targeted by Shoot actions and are unaffected by all Barrages. The Hidden token is removed whenever this unit moves or shoots.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Infanterie Greift An",
+        "id": "09f8-9364-3c1d-07b9",
+        "description": "Erwin Rommel literally wrote the book on how infantry should attack. Any force commanded by Rommel gets 1 extra \"Over the Top\" (The Grand Manuever) order per game. Grand Manuever can be used once per turn.",
+        "hidden": false,
+        "page": 56,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Infiltration Tactics (Edgar Towner)",
+        "id": "3f76-4246-78cb-aa82",
+        "description": "At the start of a game, 1 unit within Command Range of Lieutenant Edgar Towner permanently gains the Advance Setup special rule.",
+        "hidden": false,
+        "page": 42,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Infiltration Tactics (Ravenstein)",
+        "id": "4748-1a49-dc3c-04a5",
+        "description": "At the start of a game, 2 units within Command Range of Ravenstein permanently gains the Advance Setup special rule.",
+        "hidden": false,
+        "page": 56,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Infiltration Tactics (Rommel)",
+        "id": "d1ad-64fa-9f57-5817",
+        "description": "At the start of a game, 3 units within Command Range of Rommel permanently gains the Advance Setup special rule.",
+        "hidden": false,
+        "page": 56,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Infiltration Tactics (Waddell)",
+        "id": "1aba-93fe-7f8d-8af0",
+        "description": "At the start of a game, 2 units within Command Range of Waddell permanently gains the Advance Setup special rule.",
+        "hidden": false,
+        "page": 64,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Infiltration Tactics (Whittlesey)",
+        "id": "2491-8303-f50b-7e7f",
+        "description": "At the start of a game, 2 units within Command Range of Whittlesey permanently gains the Advance Setup special rule.",
+        "hidden": false,
+        "page": 72,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Inspirational Command (Ataturk)",
+        "id": "95c2-8f2c-0be1-39c6",
+        "description": "All friendly units within Ataturk's command range receive (-2) to the target number of Resolve tests, including Ataturk's command unit.",
+        "hidden": false,
+        "page": 68,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Inspirational Command (Lawrence of Arabia)",
+        "id": "7182-e668-9481-b7d3",
+        "description": "Units within Lawrence of Arabia's command range receive (-2) to their resolve test target number, including this unit.",
+        "hidden": false,
+        "page": 46,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Intelligence Officer",
+        "id": "eba8-fc76-b2e2-540f",
+        "description": "At the start of a game, 1 unit within command range permanently gain the Hidden Setup special rule.",
+        "hidden": false,
+        "page": 52,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Intelligence Officer (Meinertzhagen)",
+        "id": "9984-7969-c68c-7f57",
+        "description": "At the start of a game, 2 units within Captain Meinertzhagen's command range permanently gain the Hidden Setup special rule.",
+        "hidden": false,
+        "page": 49,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Jungle Tactician (Lettow-Vorbeck)",
+        "id": "563b-2472-9756-423e",
+        "description": "At the start of a game, 3 units within his Command Rangel permanently gains the Advance Setup special rule.",
+        "hidden": false,
+        "page": 60,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Limited Fuel",
+        "id": "8605-e9fd-a4a9-8814",
+        "description": "Each time this weapon is fired, put an ammo token on it. If this weapon ever has 2 ammo tokens, the weapon is out of fuel and the unit is removed from the table.",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Motivator",
+        "id": "63bb-bbc2-4e07-cc97",
+        "description": "At the start of the game, 2 units within command range may permanently gain the Ruthless special rule.",
+        "hidden": false,
+        "page": 52,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Rifle Grenade",
+        "id": "9f99-78ce-55c0-6907",
+        "description": "If this weapon rolls a success on its Shoot action, roll 2 more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Rifle Grenade saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.\n\nFriendly Troops do not block line of sight for Rifle Grenade's Shoot tests.",
+        "hidden": false,
+        "page": 28,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Ruthless",
+        "id": "8157-88df-682f-d56b",
+        "description": "If this unit has fewer Fatigue Points than its target during an attack, -1 to the target number of the Shoot or Close Combat test.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Sniper Rifle",
+        "id": "b312-55dd-ed0d-060a",
+        "description": "A unit shot by a Sniper Rifle does not gain a Cover Bonus.\n\nA unit successfully hit by this weapon takes an additional Fatigure before normal Resolve test is rolled.\n\nLine of Sight and Range are determined from the model holding the Sniper Rifle.",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Tough",
+        "id": "d1fb-3652-6b51-f437",
+        "description": "Rmove 1 point of Fatigue from this unit before rolling during Rally actions.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "True Grit",
+        "id": "5de0-c83c-4d60-0a08",
+        "description": "This unit may reroll failed results during Close Combat Saves tests.",
+        "hidden": false,
+        "page": 38,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Die Hard",
+        "id": "1cea-3916-2430-f8a6",
+        "description": "Unit’s with the Die Hard special rule do not become Shaken when they have 3 or more Fatigue, they will still be reduced by 1 action if they have 2 or more Fatigue. The unit can conduct defensive fire and gain Fatigue points upto a maximum of 6 fatigue points. The unit will be removed from play if it is destroyed, has twice as many Fatigue points as models remaining in the unit or the unit gains 7 Fatigue points.",
+        "hidden": false
+      },
+      {
+        "name": "Counter Charge",
+        "id": "71b0-7f9c-9ebe-7274",
+        "description": "This unit may make a melee defensive attack instead of defensive fire.",
+        "hidden": false
+      },
+      {
+        "name": "Inspired Leadership",
+        "id": "2605-6d7e-851b-7877",
+        "description": "If the officer unit is removed from play, Antonina Palshina, takes over command of the remaining  forces. Her unit is now treated as the command team, with a command range of 4” and 1 Command Point.",
+        "hidden": false
+      },
+      {
+        "name": "Heavy (Infantry Support Gun)",
+        "id": "ef3d-530e-7568-a485",
+        "description": "This unit may not take a Shoot action in the same activation that it takes and Advance action. This unit cannot use the Run action and cannot move more than 4\" in an activation. If the crew of this gun is ever reduced to 1 model, the gun can no longer be moved.\n\nIf this weapon rolls a success on its Shoot action, roll 5 more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Infantry Support Gun saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.\n\nLine of Sight and Range are determined from the Infantry Support Gun.",
+        "hidden": false,
+        "page": 28,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Heavy (Trench Mortar)",
+        "id": "1c0c-994b-b675-58d9",
+        "description": "This unit may not take a Shoot action in the same activation that it takes and Advance action. This unit cannot use the Run action and cannot move more than 4\" in an activation. If the crew of this gun is ever reduced to 1 model, the gun can no longer be moved.\n\nIf this weapon rolls a success on its Shoot action, roll 5 more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 (cover bonuses are not applied for Trench Catapult saves). Defender removes 1 model for each failed save. Resolve test is performed as normal.\n\nLine of Sight and Range are determined from the Trench Mortar model. Friendly troops do not block line of sight for a Trench Mortar.\n\nTrench Mortars do nto affect tanks and armored vehicles.",
+        "hidden": false,
+        "page": 27,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Tankgeweher",
+        "id": "e48e-49e8-26e2-206c",
+        "description": "When shooting at a tank or armored car with a Tankgeweher, the attack rolls 1D10. If the armored vehicle is hit, the defender being attacked rolls 3 dice for their resolve test. For each result of a 1 during the Resolve test, the attacking player makes 1 roll on the Lucky Hits table.",
+        "hidden": false
+      },
+      {
+        "name": "Tachanka",
+        "id": "0884-1bac-1fe6-e9ca",
+        "description": "This unit cannot be included into a Froce if the Force has not models with the Cavalry special rule.\n\nThis unit may take a free Advance action each time the unit activates. If this unit is Shaken at the start of its activation it cannot take the free Advance action.\n\nWhile this unit is mounted in the Tachanka cart add +1 to the target number of shoot saves taken by this unit.\n\nTachanka units cannot move through trenches, ruined or intact buildings, or barbed wire.\n\nAs a free action, the unit may Dismount and send their Tachanka to the rear. To dismount, replace the Tachanka model with a Heavy Machine Gun model. Dismounted Tachanka units lose the Tachanka rule and cannot mount their Tachanka again.\n\nWile mounted, if the crew of the Tachanka is ever reduced to 1 model, the gun can no longer take a Shoot action in teh same activation that it takes and Advance action, the unit loses the free Advance action, plus the Heavy Machine Gun cannot be dismounted.\n\nUnlike other vehicles, Tachanka units can receive Command Points, and are affected by the commander's Resolve bonus and the Grand Manuever.",
+        "hidden": false,
+        "page": 23,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "An Army of Many Nations",
+        "id": "902f-25a4-c283-7b0e",
+        "description": "Austrian-Hungarian Army commander's commmand range is reduced to half when giving command points to Support units in their force. Austrian-Hungarian Support units cost less than otehr force's support units.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Agitation",
+        "id": "4f40-f9c1-12e7-d697",
+        "description": "Once per its activation, the unit can give a command point for a Rally action to an enemy unit within 4\" and use it to trigger the Deserters special rule.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Bravado",
+        "id": "d7da-2859-c77c-4d84",
+        "description": "If this unit starts an activation with any amount of fatigue, roll a D10, if the result is equal to or higher than the unit's resolve value, it begins its activation with one fewer fatigue.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Combat Fatigue",
+        "id": "e23d-b13b-7953-eaae",
+        "description": "If any unit has 1 or 2 fatigue then gain a -1 to the target skill number for Close Combat and Shoot Skill tests. Units with this special rule are removed from play when they reach 6 Fatigue points.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Counter Charge",
+        "id": "259a-de2a-6bd2-dc57",
+        "description": "This unit may make a melee defensive attack instead of defensive fire.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Defensive Specialists",
+        "id": "9cab-6dd1-e5d5-6007",
+        "description": "Units do not gain Fatigue when conducting Defensive Fire.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Deserters",
+        "id": "8cd5-a29c-a705-865d",
+        "description": "If this unit has 3 or more Fatigue, and it is in the enemy Commander's command range, the enemy Commander can use a Command Point to give a Rally action to this unit. If the unit has 2 or fewer Fatigue after this Rally action, it is now controlled by the enemy player and should be marked as activated for the current turn. When attempting to take control of the unit, treat the unit as Disordered and Resolve 7; it gains the Disordered special rule and Resolve 7 for the rest of the game, if the player is succesful in gaining control of the unit. When a force gains a nwe unit in this manner the controlling player gains 1 initiative point to their force initiative pool, and the original owner of the unit loses initiative points for the unit as if it was removed from play.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Determination",
+        "id": "71c3-4250-31b7-500a",
+        "description": "The unit becomes Shaken at 4 Fatigue, they will still be reduced by 1 action if they have 2 or more Fatigue. If the unit takes a Rally Test while shaken the unit's Resolve target skill roll is reduced by -1.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Diverse Cadre",
+        "id": "3bd0-5063-dbdc-35d7",
+        "description": "During Setup, after you deploy a Core Unit, roll a D10. On a roll of 6+, place the \"Eager\" token next to the unit, and use the unbracketed values of for Resolve and Initiative of the deployed unit for the entire game. Otherwise, place the \"Prudent\" token next to the unit, and use the values given in the brackets.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Disordered",
+        "id": "71ba-ecdb-1719-f30b",
+        "description": "When the unit receives a Command Point, roll a D10 with the Target Value of 6+, if you fail the roll, the Command Point is lost, and the unit cannot perform the extra Action. Alternatively, before making the roll, you may spend 2 Initiative Points and treat the result of the roll as a success.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "For the Ataman!",
+        "id": "7b21-7359-ae5a-0e1d",
+        "description": "-If the Atamanschina player wins the Initiative bid, Command and Core units gain the Ruthless special rule until the next Initiative bidding.\n\n-If the Atamanschina player loses the Initiative bid, Command and Core units gain the Timid special rule until the next Initiative bidding.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Information Officer",
+        "id": "1df7-0d18-3d82-b1cc",
+        "description": "Once per game, after your opponent places their initiative bid token, the information officer will force them to reveal their bid. The player activating their information offcier can now change their initiative bid. Players must declare they are using the Information Officer special rule before initiative bids are revealed. If both players wish to use Information Officers, players roll a D10 and the winner is able to use the officer. The loser of the roll loses the use of the officer for the turn, but may use the officer later in the game.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Intimidation",
+        "id": "1f03-aad4-e26a-d7ff",
+        "description": "If an enemy unit takes a resolve test as a result of close combat add and additional D10 to the total number of resolve dice to be rolled.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Insurgency",
+        "id": "f3b5-2197-956d-ab3e",
+        "description": "When the command unit is activated during the game, it may use a Command Point to call up a unit from reserve. Only 1 unit can be called up from reserve each turn. The called up unit is placed within the commander's command range and at least 8\" away from enemy units. The unit called up from reserve is not counted as activated and can be activated later in the turn.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "\"It Is Not Our War\"",
+        "id": "a3b6-9d0d-ff86-ea5f",
+        "description": "If the player with this rule has more initiative points left at the end of the turn than the opponent, they may remove 1 point of Fatigue from 1 unit in their force.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Long Live Anarchy!",
+        "id": "d919-03f3-4cfb-47b0",
+        "description": "-During Setup, Anarchist Army forces may deploy any number of their units, holding any number of core units in reserve. Only the deployed units provide their Initiative Points to that force's initiative pool.\n\n-If the Anarchist Army force loses the Initiative bid, Command and Core units gain the Disordered specail rule unitl the next Initiative bidding.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Long Live Free Ukraine",
+        "id": "d155-5d2f-f194-6858",
+        "description": "-If the Ukranian People's Army player wins the Initiative bid, Command and Core units gain the Disordered special rule unitl the next Initiative bidding.\n\n-If the Ukranian People's Army player loses the Initiative bid, Command and Core units gain the Ruthless special rule unitl the next Initiative bidding. The Ukranian People's Army player may spend 2 Initiative points to place a Take Cover token next to one of the Command or Core units.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Lost Hope",
+        "id": "6d4a-e701-a6fc-bd6f",
+        "description": "The unit becomes Shaken at 4 Fatigue, they will still be reduced by 1 action if they have 2 or more Fatigue. When the unit takes a Resolve test and is not Shaken, it has their Resolve value reduced by -1; conversely if the unit takes a resolve roll while Shaken their Resolve target value increases by +1.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Marksman",
+        "id": "2db9-e32a-f36a-cd7d",
+        "description": "When this unit takes a Shoot action resulting in casualties from the targeted unit, the targeted unit rerolls 1 successful Resolve test.",
+        "hidden": false,
+        "page": 22,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Poorly Trained",
+        "id": "0a44-2ba7-15f3-3df3",
+        "description": "When taking a Shoot or Charge action, the unit can only target the closest enemy unit. If two target units are equal distance from the unit, the player controlling the unit decides which unit to attack.",
+        "hidden": false,
+        "page": 23,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Power to the Soviets",
+        "id": "f558-5969-6bab-87f6",
+        "description": "Once per turn, when players place their Initiative bids, but before they are revealed, the player with this rule can announce that they are using the \"Power of the Soviets\" special rule. If the player wins the Initiative bid, the activated unit gains a Command Point with a Command Range of 4\". If the initiative big is lost the special rule has not effect. This special rule cannot be used when activating a command unit. You cannot use the rule if the opponent has activated all their units and therefore cannot place a bid.",
+        "hidden": false,
+        "page": 23,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Scarce Ammunition",
+        "id": "9d63-9a37-dce9-7e0d",
+        "description": "If this unit loses the Initiative bid, it cannot perform a Shoot action and cannot use Command Points to issue a Shoot action during this activation.",
+        "hidden": false,
+        "page": 23,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Banzai Charge",
+        "id": "da29-51c5-8f7a-7646",
+        "description": "Japanese commanders can use the Grand Manuever to order Japanese units to charge into close combat. Japanese units can use the Furious Charge special rule when performing a Grand Manuever.",
+        "hidden": false,
+        "page": 21,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Timid",
+        "id": "da99-5ce9-2bee-8247",
+        "description": "If a unit within 5\" of this unit takes casualties, this unit must make a Resolve test on a single D10.",
+        "hidden": false,
+        "page": 24,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Will of the People!",
+        "id": "df28-0d7b-7e17-a554",
+        "description": "If the Partizanschina player wins the Initiative bid, Command and Core units gain the Devil Dogs special rule until the next Initiative bidding.\n\nIf the Partizanschina player loses the Initiative bid, Command and Core units gain the Discordered special rule until the next Initiative bidding.",
+        "hidden": false,
+        "page": 24,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Udarny",
+        "id": "1d94-882d-2476-8122",
+        "description": "Udarny Revolutionary Army of Free Russia units (Shock Troops) can issue one Command Point per turn to one Regular Revolutionary Army of Free Russia unit within 4\".",
+        "hidden": false,
+        "page": 24,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Unseen Attacks",
+        "id": "bb1f-174a-0698-c77f",
+        "description": "At the beginning of each turn, before the first Initiative bid is placed, this player may force an enemy unit to make a Resolve test by rolling one D10. If the Resolve test is failed the enemy unit gains 1 Fatigue point. If this causes the unit to become Shaken, the unit immediately makes a fall back move.",
+        "hidden": false,
+        "page": 24,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Uraa!",
+        "id": "fc5b-3520-74f8-fa51",
+        "description": "Once per turn one Core unit or Command unit gains an extra action. This cannot be used if the unit is Shaken.",
+        "hidden": false,
+        "page": 24,
+        "publicationId": "fd38-3108-091c-56fe"
+      },
+      {
+        "name": "Heavy Gun (Vehicle)",
+        "id": "c306-c305-c218-c78a",
+        "description": "If this weapon rolls a success on its Shoot action, roll 5 or more D10 with a target number of 7. The defender then rolls 1D10 for each success with a target number of 9 instead of a normal save (cover bonuses are not applied for Saves against Heavy Gun damage). Defender removes 1 model for each failed save. Resolve test is performed as normal.",
+        "hidden": false,
+        "page": 97,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {
+        "name": "Heavy Machine Gun (Vehicle)",
+        "id": "de76-0db6-f704-a45e",
+        "description": "(+1) to the target number of save tests taken as a result of being hit by this weapon.",
+        "hidden": false,
+        "page": 97,
+        "publicationId": "e568-bb77-58cb-d3b5"
+      },
+      {"name": "Regular", "id": "e35b-5dd7-8a32-3319", "hidden": false}
+    ]
+  }
+}
